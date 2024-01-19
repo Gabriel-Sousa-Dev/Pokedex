@@ -1,2 +1,7 @@
 # Pokedex
-Uma Pokedex simples.
+Uma Pokedex simples feita com [PokeApi](https://pokeapi.co/)
+
+# Feita com
+- Html
+- Css
+- Javascript
