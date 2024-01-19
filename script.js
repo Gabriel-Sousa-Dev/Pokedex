@@ -132,8 +132,6 @@ async function loadSinglePkm() {
   pkmTable.innerHTML = pkmTableData
   pkmInfo.appendChild(pkmTable)
   
-  console.log(pkmData)
-  
   pkmT.innerHTML = pkmData.name
   pkmImg.setAttribute("src", pkmData.sprites.other.home.front_default)
   pkmImg.setAttribute("alt", pkmData.name)
