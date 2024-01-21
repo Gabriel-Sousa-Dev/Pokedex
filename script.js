@@ -37,13 +37,6 @@ async function createCardPkm(id){
   
   let pkmCard = document.createElement('div')
   
-  // corrigir as duas próximas linhas
-  
-  //let tipo = await pkmData.types[1] ? pkmData.types[1].type.name : pkmData.types[0].type.name
-  
-  //let typePkm = await String(tipo)
-  
-  
   pkmCard.classList.add('pkm-card')
   
   pkmCard.style.backgroundColor = eval(`colors.${pkmData.types[0].type.name}`)
